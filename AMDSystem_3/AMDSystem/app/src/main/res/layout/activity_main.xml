@@ -60,6 +60,7 @@
             app:hintEnabled="false">
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Jane Doe"
@@ -86,6 +87,7 @@
             app:hintEnabled="false">
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -164,6 +166,7 @@
 
 
         <LinearLayout
+            android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

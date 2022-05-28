@@ -46,6 +46,7 @@
 
 
             <EditText
+                android:id="@+id/num1"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -61,6 +62,7 @@
 
 
             <EditText
+                android:id="@+id/num2"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -76,6 +78,7 @@
 
 
             <EditText
+                android:id="@+id/num3"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -91,6 +94,7 @@
 
 
             <EditText
+                android:id="@+id/num4"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -106,6 +110,7 @@
 
 
             <EditText
+                android:id="@+id/num5"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -121,6 +126,7 @@
 
 
             <EditText
+                android:id="@+id/num6"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

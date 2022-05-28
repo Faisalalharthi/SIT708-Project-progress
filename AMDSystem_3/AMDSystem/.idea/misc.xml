@@ -3,34 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AMDSystem/app/src/main/res/drawable/changeview.xml" value="0.137" />
-        <entry key="..\:/AMDSystem/app/src/main/res/drawable/chatdesign.xml" value="0.137" />
-        <entry key="..\:/AMDSystem/app/src/main/res/drawable/googlebtndesign.xml" value="0.121" />
-        <entry key="..\:/AMDSystem/app/src/main/res/drawable/selectedtime.xml" value="0.137" />
-        <entry key="..\:/AMDSystem/app/src/main/res/drawable/selectedwork.xml" value="0.137" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_account_verification.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_chat_bot.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_create_new_password.xml" value="0.25416666666666665" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_forget_otp.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_forget_password.xml" value="0.25416666666666665" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_main.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AMDSystem/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.121" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_chat_bot.xml" value="0.1814814814814815" />
         <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_view_details.xml" value="0.2641946697566628" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_book_mark.xml" value="0.25416666666666665" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_favourite.xml" value="0.25416666666666665" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_profile.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_search.xml" value="0.2111111111111111" />
-        <entry key="..\:/AMDSystem/app/src/main/res/layout/item_design.xml" value="0.2111111111111111" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_account_verification.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_chat_bot.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_create_new_password.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_forget_otp.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_forget_password.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/activity_main_menu.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/fragment_search.xml" value="0.1796875" />
-        <entry key="..\:/Users/faial/Downloads/AMDSystem_3/AMDSystem/app/src/main/res/layout/item_design.xml" value="0.1796875" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/activity_view_details.xml" value="0.1814814814814815" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_book_mark.xml" value="0.1814814814814815" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/fragment_favourite.xml" value="0.1814814814814815" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/item_design.xml" value="0.1814814814814815" />
+        <entry key="..\:/AMDSystem/app/src/main/res/layout/message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/AMDSystem/app/src/main/res/layout/activity_chat_bot.xml" value="0.11302083333333333" />
+        <entry key="..\:/Projects/AMDSystem/app/src/main/res/layout/activity_registration.xml" value="0.1625" />
+        <entry key="..\:/Projects/AMDSystem/app/src/main/res/layout/fragment_book_mark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/AMDSystem/app/src/main/res/layout/item_design.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

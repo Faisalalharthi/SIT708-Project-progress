@@ -25,6 +25,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="#F9F9F9"
+                android:onClick="backshow"
                 android:src="@drawable/ic_baseline_arrow_back_24"
                 app:tint="@color/black" />
 
@@ -65,38 +66,47 @@
     </LinearLayout>
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/chatEdt"
         android:layout_below="@+id/Header"
-        android:layout_marginBottom="60dp">
+        android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Lets find \nYour University!"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/chatEdt"
+            android:layout_below="@+id/Header"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Lets find \nYour University!"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/apiview"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
 
         </LinearLayout>
-    </ScrollView>
+
+    </LinearLayout>
 
 
     <LinearLayout
+        android:id="@+id/chatEdt"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true">
@@ -113,6 +123,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/msgInput"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_margin="5dp"
@@ -124,6 +135,7 @@
 
 
             <ImageButton
+                android:id="@+id/msgButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="5dp"

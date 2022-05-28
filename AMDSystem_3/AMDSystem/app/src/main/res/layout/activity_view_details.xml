@@ -30,6 +30,7 @@
 
                 <ImageButton
                     android:layout_width="50dp"
+                    android:onClick="backshow"
                     android:layout_height="50dp"
                     android:background="#F9F9F9"
                     android:src="@drawable/ic_baseline_arrow_back_24"
@@ -50,9 +51,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:id="@+id/UniName"
                     android:layout_margin="5dp"
                     android:gravity="center"
                     android:text="University of Slogan"
+                    android:maxLength="22"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -85,6 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="220dp"
                     android:layout_margin="10dp"
+                    android:id="@+id/UniPic"
                     android:scaleType="fitXY"
                     android:src="@drawable/media" />
 
@@ -103,6 +107,7 @@
                         android:drawableLeft="@drawable/ic_baseline_stars_24"
                         android:drawableTint="#21CB85"
                         android:stateListAnimator="@null"
+                        android:id="@+id/Country"
                         android:text="Australia"
                         android:textAllCaps="false"
                         android:textColor="#21CB85" />
@@ -111,6 +116,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/Rating"
                         android:backgroundTint="#45FF6D00"
                         android:drawableLeft="@drawable/ic_baseline_stars_24"
                         android:drawableTint="#FF6D00"
@@ -134,6 +140,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
+                    android:id="@+id/description"
                     android:layout_margin="10dp"
                     android:gravity="start|center"
                     android:text="The University of Toronto is a globally top-ranked public research university in Toronto,Ontario, Canada." />
